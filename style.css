@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: #450920;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.navbar{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-evenly;
+    background-color: bisque;
+}
+.shopin-img{
+    height: 80px;
+    width: auto;
+}
+.input-box{
+    display: flex;
+    filter: drop-shadow(-1px 1px 2px #000);
+    
+}
+.input-box input{
+    width: 400px;
+    height: 38px;
+    border-right: none;
+}
+.input-box button{
+    height: 41.5px;
+    width: 80px;
+    background-color: #344e41;
+    color: #fff;
+}
+.icon1{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+#ic{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    filter: drop-shadow(-1px 1px 2px #000);
+}
+#ic:hover{
+    color: #000; transform: translateY(-5px);
+    background-color: #450920;
+    color: #fff;
+}
+.navbar2{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #450920;
+    color: #fff;
+    font-weight: bolder;
+    justify-content: space-evenly;
+}
+#store-policy{
+    font-weight: bolder;
+}
+.navbar2 p:hover{
+    color: #ccc;
+    cursor: pointer;
+}
+#store-policy{
+    width: 120px;
+    background-color: #450920;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    padding-top: 20px;
+    width: 1300px;
+    object-fit: cover;
+}
+.container2{
+    margin-top: 60px;
+    height: 800px;
+    width: 100%;
+}
+.image2{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cont2{
+    position: relative;
+}
+.image-text2{
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    height: 35px;
+    width: 120px;
+    background-color: #6a1737;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    
+}
+.image3{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.contt{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.cont3{
+    position: relative;
+}
+.image-text3{
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    height: 35px;
+    width: 120px;
+    background-color: #6a1737;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+}
+.con1-text{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+.container3{
+    width: 100%;
+    background-color: #fff;
+    padding-left: 30px;
+}
+.img3{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.img3:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.paira1{
+    font-size: 20px;
+    color: #d5bdaf;
+    margin-top: 20px;
+}
+.stock{
+    color: #ccc;
+}
+.rate1{
+    padding-top: 45px;
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+}
+.rupee1{
+    text-decoration: line-through;
+    color: #ccc;
+}
+.price1{
+    color: #000;
+}
+.box1{
+    height: 30px;
+    width: 140px;
+    background-color: #f0e1d8;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+.icon-2{
+    padding: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.icon-2 i{
+    font-size: 13px;
+    color: #ccc;
+}
+.card-1{
+    height: 30px;
+    width: 110px;
+    display: flex;
+    background-color: #450920;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.shop-1 i{
+    display: flex;
+    color: #fff;
+    font-size: 12px;
+}
+.car1{
+    color: #fff;
+    font-size: 12px;
+}
+.heart1 i{
+    color: #000;
+}
+.heart1{
+    margin-top: 10px;
+    display: flex;
+    color: #ccc;
+}
+.boxes-1{
+    display: flex;
+}
+.container4{
+    width: 100%;
+    background-color: #fff;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.boxes-2{
+    display: flex;
+}
+.container5{
+    width: 100%;
+    background-color: #fff;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.boxes-3{
+    display: flex;
+}
+.container6{
+    width: 100%;
+    background-color: #fff;
+    padding-left: 30px;
+    margin-top: 30px;
+} 
+.boxes-4{
+    display: flex;
+}
+.view{
+    height: 50px;
+    width: 200px;
+    background-color: #450920;
+    color: #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viewes{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.post313{
+    height: 250px;
+    width: 1200px;
+    object-fit: cover;
+}
+.poster313{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    filter: drop-shadow(-1px 1px 5px #000);
+}
+.paira2{
+    color: #000;
+    font-size: 40px;
+}
+.par{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #d4a373;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.last-logo{
+    height: 80px;
+}
+.paira4{
+    color: #ccc;
+    padding-top: 20px;
+}
+.paira4:hover{
+    color: #000;
+}
+ul{
+    padding-top: 20px;
+}
+ul li{
+    color: #ccc;
+    text-decoration: none;
+}
+ul li:hover{
+    color: #000;
+}
+.address {
+    display: flex;
+    padding-top: 20px;
+    color: #ccc;
+}
+.address:hover{
+    color: #000;
+}
+.contect{
+    display: flex;
+    color: #ccc;
+}
+.contect:hover{
+    color: #000;
+}
+.email{
+    display: flex;
+    color: #ccc;
+}
+.email:hover{
+    color: #000;
+}
+.fa-in{
+    gap: 10px;
+    color: #ccc;
+}
+.fa-in:hover{
+    color: #000;
+}
